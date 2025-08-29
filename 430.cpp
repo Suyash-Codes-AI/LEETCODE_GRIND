@@ -8,7 +8,7 @@ public:
     Node* child;
 };
 */
-
+//TC = O(n)
 class Solution {
 public:
     Node* flatten(Node* head) {
@@ -42,3 +42,5 @@ public:
         return head;
     }    
 };
+
+
